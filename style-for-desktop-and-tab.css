@@ -1,0 +1,297 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    width: 95%; /* ask why you cant use 100vw*/
+    margin: 0 auto;
+    font-family: "Century Gothic", sans-serif;
+}
+.margin-top{
+    margin-top: 40px;
+}
+.margin-bottom{
+    margin-bottom: 40px;
+}
+h2{
+    font-size: 170%;
+    padding: 10px 0;
+}
+.pad-top{
+    padding-top: 20px;
+}
+.mainContainer{
+    box-shadow: 1px 1px 1px 0 lightgray, -1px -1px 1px 0 lightgray;
+}
+
+
+.flexbox{
+    width: 100%;
+    height: auto;
+    background-color: rgba(114, 31, 17, 1);
+    display: block;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+.logo{
+    margin-left: 5px;
+    width: 55px;
+    height: 54px;
+    display: inline-block;
+    /*border-right: 1px solid firebrick; */
+}
+
+#nav-bar{
+    float: right;
+    list-style-type: none;
+    align-self: center;
+    margin: 0 0 0 auto;
+}
+.flexbox-nav-bar{
+    display: inline-flex;
+    padding: 0 0 0 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+   box-sizing: border-box;
+}
+.servicecontact{
+    border-right: none;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 80%;
+    display: inline-block;
+    flex: 1 1 0;
+    text-align: center;
+    padding: 20px 35px;
+    transition:1s ease;
+}
+li a:hover{
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    transition: 0.5s ease-in-out;
+}
+button{
+    background-color: white;
+}
+button:hover{
+    background-color: rgba(114, 31, 17, 1);
+}
+
+.image-wrapper{
+    background: linear-gradient(rgba(255,255,255, 0.50),rgba(255,255,255, 0.50)), url(./images/people.jpg) no-repeat fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.company-name{
+    color: black;
+    width: 60%;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-center{
+    font-family: "Century Gothic", sans-serif;
+     text-align: center;
+}
+.main-head{
+    margin-top: 0;
+    font-size: 300%;
+    font-weight: bold;
+}
+.learn{
+    color: rgba(114, 31, 17, 1);
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    padding: 10px;
+    transition: 0.5s ease;
+    margin-right: auto;
+    margin-left: auto;
+}
+.learn:hover{
+    text-decoration: none;
+    background-color: rgba(114, 31, 17, 1);
+    border: 1px solid rgba(114, 31, 17, 1);
+    color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#company-summary{
+    color: black;
+    line-height: 200%;
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px 0;
+    font-weight: normal;
+    font-size: 120%;
+}
+#company-summary p{
+   margin-bottom: 30px;
+}
+
+.about-us{
+    margin: 0 auto 20px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.heading{
+    width: 100%;
+    font-weight: bold;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    color: black;
+    background-color: white;
+}
+.heading span{
+    font-weight: bold;
+    color: rgba(114, 31, 17, 1);
+}
+
+.about{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+.image{
+    display: inline-block;
+    width: 35%;
+    margin-left: 10%;
+    transition: width 1s ease;
+}
+
+.words {
+    width: 40%;
+    padding: 0 20px;
+    margin-left: 5%;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border-top: 1px solid rgba(114, 31, 17, 1) ;
+}
+.words p{
+    font-size: 110%;
+    margin: 10px auto;
+}
+.words a{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.services{
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+}
+.columns{
+    width: 100%;
+    padding-top: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    /*border: 1px solid rgba(114, 31, 17, 1);*/
+    /*border-radius: 50px;*/
+}
+.blog, .influencer, .travel{
+    flex: 1 1 0;
+    align-self: flex-start;
+
+}
+.column-images{
+    width: 30%;
+    margin: 0 auto 20px ;
+}
+.column-heading{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.blog p:last-child, .influencer p:last-child, .travel p:last-child{
+    width: 80%;
+    margin: 10px auto 0;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+.contact-us{
+    width: 100%;
+    background-color: white;
+}
+
+form{
+    padding: 0 5%;
+    margin:0 10% 0 10%;
+}
+.form-layout{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+    /* border: 2px solid darkkhaki; */
+}
+input{
+    width: 49.5%;
+    display: inline-block;
+    padding: 10px;
+}
+.name, .email{
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.email{
+    float: right;
+}
+textarea{   /*replace*/
+    resize: none;
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    margin:0 auto 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.contact-us div a{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+#send{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    border: 1px solid rgba(114, 31, 17, 1);
+    background-color: rgba(114, 31, 17, 1);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.footer-wrapper p{
+    margin: 10px auto;
+    border-top: 1px solid lightgray;
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    color: black;
+    background-color: white;
+}
+.footer-wrapper strong{
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+

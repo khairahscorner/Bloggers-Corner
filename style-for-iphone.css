@@ -1,0 +1,248 @@
+body /*.main-body-wrapper */{
+    background-color: white;
+   width: 100vw;         /* ask why you cant use 100vw*/
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "Century Gothic", sans-serif;
+}
+
+header{
+    width: auto;
+    height: auto;
+    margin-bottom: 1%;
+    /*border: 2px solid firebrick;*/
+    /*border-bottom: 1px solid grey; */
+}
+h2{
+    font-size: 170%;
+    padding: 10px 0;
+}
+
+.flexbox{
+    background: #fff;
+    display: block;
+}
+.logo{
+    width: 15%;
+    margin: 0 auto 5px auto;
+}
+
+.flexbox-nav-bar{ /*replace*/
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    display: inline-flex;
+    align-content: center;
+    margin:0 auto;
+    padding: 0;
+    background-color: rgba(114, 31, 17, 1);
+    border: none;
+    box-sizing: border-box;
+
+}
+
+.flexbox-nav-bar li{
+    padding: 10px;
+    flex: 1 1 0;
+    text-align: center;
+}
+.flexbox-nav-bar li a{
+    color: #fff;
+}
+.flexbox-nav-bar li a:hover{
+    color: black;
+    padding: 10px;
+    background-color: #fff;
+    text-decoration: none;
+}
+.servicecontact{
+    margin-right: 0;
+    border-right: none;
+}
+
+.image-wrapper{
+    background: linear-gradient(rgba(255,255,255, 0.50),rgba(255,255,255, 0.50)), url(./images/people.jpg) no-repeat fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    margin: 0 auto;
+}
+.main-head{
+    margin-top: 0;
+    font-size: 250%;
+}
+.company-name{
+    color: black;
+    width: 60%;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-center{
+    font-weight: bold;
+    text-align: center;
+}
+#company-summary{
+    color: black;
+    line-height: 170%;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px 0;
+    font-weight: normal;
+}
+#company-summary p{
+    margin-bottom: 30px;
+}
+.learn{
+    color: rgba(114, 31, 17, 1);
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    padding: 10px;
+    transition: 0.5s ease;
+    margin-right: auto;
+    margin-left: auto;
+}
+.learn:hover{
+    text-decoration: none;
+    background-color: rgba(114, 31, 17, 1);
+    border: 1px solid rgba(114, 31, 17, 1);
+    color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.about-us{
+    margin: 0 auto 20px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.heading{
+    width: 100%;
+    font-weight: bold;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    color: black;
+    background-color: white;
+}
+.heading span{
+    font-weight: bold;
+    color: rgba(114, 31, 17, 1);
+}
+
+.image{
+   width: 40%;
+    margin: 0 auto 20px ;
+}
+.words{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    border-top: 1px solid rgba(114, 31, 17, 1) ;
+}
+.words p{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 110%;
+}
+.words a{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+/*no column*/
+.services{
+    padding: 10px 0;
+    background-color: whitesmoke;
+}
+.column-images{
+    width: 20%;
+    margin: 0 auto 20px;
+}
+.blog, .influencer, .travel{ /* replace*/
+    margin-top: 20px;
+}
+.column-heading{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 120%;
+}
+
+.blog p:last-child, .influencer p:last-child, .travel p:last-child{
+    width: 80%;
+    margin: 10px auto 0;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+.contact-us{
+    width: 100%;
+    background-color: white;
+}
+.contact-us div a{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+
+}
+form{
+    padding: 5%;
+    margin:0 10% 0 10%;
+}
+.form-layout{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+    /* border: 2px solid darkkhaki; */
+}
+input{
+    padding: 10px;
+}
+.name{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.name:focus{
+    border: 2px solid black}
+.email{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.email:focus{
+    border: 2px solid black}
+
+textarea{   /*replace*/
+    resize: none;
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    margin:auto;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+textarea:focus{
+    border: 2px solid black}
+#send{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    border: 1px solid rgba(114, 31, 17, 1);
+    background-color: rgba(114, 31, 17, 1);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.footer-wrapper{
+  margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid whitesmoke;
+}
