@@ -61,7 +61,7 @@ h2{
 }
 
 .image-wrapper{
-    background: linear-gradient(rgba(255,255,255, 0.50),rgba(255,255,255, 0.50)), url(./images/people.jpg) no-repeat fixed;
+    background: linear-gradient(rgba(255,255,255, 0.50),rgba(255,255,255, 0.50)), url(./images/people.jpg) no-repeat;
     width: 100%;
     height: 100vh;
     background-size: cover;
