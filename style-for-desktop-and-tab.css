@@ -59,7 +59,8 @@ h2{
 .servicecontact{
     border-right: none;
 }
-li a{
+li a:link,
+li a:visited{
     color: #fff;
     text-decoration: none;
     font-weight: 600;

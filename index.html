@@ -8,8 +8,8 @@
     <link rel="stylesheet" media="screen and (min-width: 768px)" href="style-for-desktop-and-tab.css" >
     <link rel="icon" href="./images/logo.jpg">
 
-
   <meta name="viewport" content="width=device-width, initial-scale= 1">
+    <script src=jquery-3.3.1.js></script>
 </head>
 
 <body>
@@ -18,11 +18,11 @@
         <header class="flexbox ">
             <img src="./images/logo.jpg" class="logo img-responsive">
             <!-- <div id="nav-bar"></div>  -->
-            <ul id="nav-bar" class="flexbox-nav-bar">
-                <li> <a href="#">  HOME</a>  </li>
-                <li> <a href="#aboutclick">ABOUT </a> </li>
-                <li > <a href="#contactclick"> CONTACT </a> </li>
-                <li class="servicecontact"> <a href="#serviceclick"> SERVICES </a> </li>
+            <ul id="nav-bar" class="flexbox-nav-bar js-scroll-trigger">
+                <li> <a href="#" class="js-scroll-trigger">  HOME</a>  </li>
+                <li> <a href="#aboutclick" class="js-scroll-trigger">ABOUT </a> </li>
+                <li > <a href="#contactclick" class="js-scroll-trigger"> CONTACT </a> </li>
+                <li class="servicecontact"> <a href="#serviceclick" class="js-scroll-trigger"> SERVICES </a> </li>
             </ul>
         </header>
         <div class="image-wrapper">
@@ -110,6 +110,6 @@
         </footer>
     </div>
 
-
+<script src="script.js"></script>
 </body>
 </html>

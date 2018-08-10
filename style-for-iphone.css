@@ -46,7 +46,8 @@ h2{
     flex: 1 1 0;
     text-align: center;
 }
-.flexbox-nav-bar li a{
+.flexbox-nav-bar li a:link,
+.flexbox-nav-bar li a:visited{
     color: #fff;
 }
 .flexbox-nav-bar li a:hover{
